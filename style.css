@@ -177,3 +177,34 @@ main {
 .hidden{
   display: none;
 }
+
+@media only screen and (max-width: 600px){
+	main{
+    flex-direction: column;
+    width: 100rem;
+    height: 100rem;
+  }
+
+  .btn--new {
+    top: 9rem;
+  }
+  .btn--roll {
+    top: 45.3rem;
+  }
+  .btn--hold {
+    top: 52.1rem;
+  }
+  
+  #name--0{
+    margin-top: 50px;
+  }
+
+  .dice{
+    z-index: 999;
+    position: absolute;
+    top: 10%;
+    left: 88%;
+    width: 75px;
+    height: 75px;
+  }
+}
